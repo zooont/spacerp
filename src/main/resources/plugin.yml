@@ -1,0 +1,40 @@
+name: SpaceRP
+main: org.kapydev.spacerp.SpaceRP
+version: 1.0
+api-version: 1.21
+commands:
+  spacerp:
+    description: Основная команда плагина
+    usage: /<command>
+    permission: spacerp
+    permission-message: "У вас нет прав для использования этой команды!"
+
+  do:
+    description: Действие от 3 лица
+    usage: /do
+    permission: spacerp.do
+    permission-message: "У вас нет прав для использования этой команды!"
+
+  me:
+    description: Действие от 1 лица
+    usage: /me
+    permission: spacerp.me
+    permission-message: "У вас нет прав для использования этой команды!"
+
+  try:
+    description: Попробовать сделать что-то
+    usage: /try
+    permission: spacerp.try
+    permission-message: "У вас нет прав для использования этой команды!"
+
+  roll:
+    description: Прокрутить рулетку (выпадает число от 1 до 100)
+    usage: /roll
+    permission: spacerp.roll
+    permission-message: "У вас нет прав для использования этой команды!"
+
+  dice:
+    description: Бросить кости (выпадает число 1-6)
+    usage: /dice
+    permission: spacerp.dice
+    permission-message: "У вас нет прав для использования этой команды!"
