@@ -30,4 +30,4 @@ messages:
 ```
 
 ## Статистика 
-[image](https://bstats.org/signatures/bukkit/SpaceRP.svg)
+![image](https://bstats.org/signatures/bukkit/SpaceRP.svg)
